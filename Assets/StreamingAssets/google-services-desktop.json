@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "502504779095",
+    "project_id": "super-dragon-m",
+    "storage_bucket": "super-dragon-m.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:502504779095:android:12b92d24bd3e1b9f70a212",
+        "android_client_info": {
+          "package_name": "com.wee.superdragonm"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBVRxH1JsX3lW2S9ScyDLX3WRJJNoP-KZo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

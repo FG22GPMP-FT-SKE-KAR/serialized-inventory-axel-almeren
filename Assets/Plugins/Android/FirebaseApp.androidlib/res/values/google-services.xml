@@ -1,0 +1,9 @@
+<?xml version='1.0' encoding='utf-8'?>
+<resources xmlns:tools="http://schemas.android.com/tools" tools:keep="@string/gcm_defaultSenderId,@string/google_storage_bucket,@string/project_id,@string/google_api_key,@string/google_crash_reporting_api_key,@string/google_app_id">
+  <string name="gcm_defaultSenderId" translatable="false">502504779095</string>
+  <string name="google_storage_bucket" translatable="false">super-dragon-m.appspot.com</string>
+  <string name="project_id" translatable="false">super-dragon-m</string>
+  <string name="google_api_key" translatable="false">AIzaSyBVRxH1JsX3lW2S9ScyDLX3WRJJNoP-KZo</string>
+  <string name="google_crash_reporting_api_key" translatable="false">AIzaSyBVRxH1JsX3lW2S9ScyDLX3WRJJNoP-KZo</string>
+  <string name="google_app_id" translatable="false">1:502504779095:android:12b92d24bd3e1b9f70a212</string>
+</resources>
