@@ -2,8 +2,7 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
-
-
+using UnityEngine.UI;
 
 public class Gamemanager : MonoBehaviour
 {
@@ -32,6 +31,15 @@ public class Gamemanager : MonoBehaviour
     }
     public void Restart()
     {
-        SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        //SceneManager.LoadScene(SceneManager.GetActiveScene().name);
+        //SceneManager.LoadScene("Level", LoadSceneMode.Additive);
+        StartCoroutine(Reload());
+    }
+
+    public IEnumerator Reload()
+    {
+        SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
+        yield return new WaitForSeconds(1f);
+        GameObject.Find("/Canvas/Endscreen/Button").GetComponent<Button>().onClick.Invoke();
     }
 }
